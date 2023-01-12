@@ -17,4 +17,6 @@ To be precise, we formalize
 - The main direction (a) implies (b) of Theorem 1 in the paper.
 
  Comments are welcome!
+ 
+ Raphael Appenzeller, 2023
 
