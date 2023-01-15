@@ -12,8 +12,8 @@ This project contains two `Lean`-files. In the first one, `lambda_metric_space.l
 In the second file `lambda_tree_theorem.lean`, we formalize some results from a paper '(In)dependence of the axioms of Λ-trees' https://arxiv.org/abs/2112.02704 by the author.
 
 To be precise, we formalize
-- Lemma 2 in the paper (this is Lemma 3.6 in Chiswell's book).
-- Lemma 4 in the paper.
+- Lemma 1 in the paper (this is Lemma 3.6 in Chiswell's book).
+- Lemma 2 in the paper.
 - The main direction (a) implies (b) of Theorem 1 in the paper.
 
  Comments are welcome!

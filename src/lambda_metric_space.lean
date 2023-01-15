@@ -1294,7 +1294,7 @@ begin
   exact le_trans h4 h6, 
 end
 
--- This is a stronger version of Lemma 5 in [paper].
+-- This is a stronger version of Lemma 2 in [paper].
 lemma segments_intersect_once (Λ : Type*)  [linear_ordered_add_comm_group Λ] (X : Type*) [lambda_metric_space Λ X]
       (x y z p: X) (f1 f2 f g : segment_map Λ X ) (h1 : f1.p = x) (h2 : f1.q = z) (h3 : f2.p = z) (h4 : f2.q = y)
       (h5: f.p = x) (h6 : f.q = y) (h7 : g.p = z) (h8 : g.q = p) (h9 : segment Λ X f1 ∪ segment Λ X f2 = segment Λ X f)
@@ -1808,7 +1808,7 @@ begin
      
 end
 
--- This is Lemma 3.6 in Chiswel [Chi] or Lemma 3 in [paper], 
+-- This is Lemma 3.6 in Chiswel [Chi] or Lemma 1 in [paper], 
 -- the main proof consists of the previous lemma axioms_1_2_imply_unique_1_f_f'
 lemma axioms_1_2_imply_unique_1 (Λ  : Type*) [linear_ordered_add_comm_group Λ] (X:Type*)[lambda_metric_space Λ X]
         : axiom_1 Λ X ∧ axiom_2 Λ X → axiom_unique_1 Λ X :=

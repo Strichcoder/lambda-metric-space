@@ -17,15 +17,15 @@ namespace algebra.order.group
 -- This file was created in 2022/2023.
 
 -- Content:
--- Lemma 3 from [paper]
--- Lemma 5 from [paper]
+-- Lemma 1 from [paper]
+-- Lemma 2 from [paper]
 -- The main direction of Theorem 1 using the supremum assumption
 -- The main direction of Theorem 1 using the maximum assumption from [paper]
 -- A corollary for Λ = 2Λ
 
 variables (Λ :Type*)[linear_ordered_add_comm_group Λ]
 
--- This is Lemma 3.6 in Chiswel [Chi] or Lemma 3 in [paper], 
+-- This is Lemma 3.6 in Chiswel [Chi] or Lemma 1 in [paper], 
 -- This is axioms_1_2_imply_unique_1 in lambda_metric_space.lean
 lemma lemma_3 (Λ  : Type*) [linear_ordered_add_comm_group Λ] (X:Type*)[lambda_metric_space Λ X]
         : axiom_1 Λ X ∧ axiom_2 Λ X → axiom_unique_1 Λ X :=
@@ -33,7 +33,7 @@ begin
   apply axioms_1_2_imply_unique_1 Λ X, 
 end
 
--- This is a Lemma 5 in [paper] with [x,y]=f, [x,z]=f1, [z,y]=f2, [z,p]=g, 
+-- This is a Lemma 2 in [paper] with [x,y]=f, [x,z]=f1, [z,y]=f2, [z,p]=g, 
 -- This is segments_intersect_once in lambda_metric_space.lean
 lemma lemma_5 (Λ : Type*)  [linear_ordered_add_comm_group Λ] (X : Type*) [lambda_metric_space Λ X]
       (x y z p: X) (f1 f2 f g : segment_map Λ X ) (h1 : f1.p = x) (h2 : f1.q = z) (h3 : f2.p = z) (h4 : f2.q = y)
